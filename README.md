@@ -15,9 +15,9 @@ composer install
 
 4. Add a home domain folder to the server settings:
 
-<full_path_to_folder_from_step_1>/<your_folder_name_from_step_1>/frontenf/web
+<full_path_to_folder_from_step_1>/<your_folder_name_from_step_1>/frontend/web
 
 location / {
-root       "<full_path_to_folder_from_step_1>/<your_folder_name_from_step_1>/frontenf/web";
+root       "<full_path_to_folder_from_step_1>/<your_folder_name_from_step_1>/frontend/web";
 index      index.php index.html index.htm;
 }
